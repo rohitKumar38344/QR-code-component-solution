@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  width: 30rem;
+  border-radius: 2.4rem;
+  padding: 1.6rem;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  border-radius: 1.6rem;
+}
+.card-img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.heading-primary,
+.card-description {
+  padding: 0 1.2rem;
+}
+
+.heading-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.card-description {
+  font-size: 1.5rem;
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 2.4rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Design */
+/* screen size: 352px */
+@media (max-width: 22em) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .container {
+    width: 24rem;
+  }
+}
+
+@media print {
+  body {
+    background-color: transparent;
+  }
+}
