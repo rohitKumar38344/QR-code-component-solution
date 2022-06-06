@@ -21,8 +21,8 @@ above when you add your screenshot. If you prefer not to add a screenshot, feel 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/rohitKumar38344/QR-code-component-solution)
+- Live Site URL: [live](https://qr-code-componentsoln.netlify.app/)
 
 ## My process
 
